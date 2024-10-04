@@ -1,0 +1,4 @@
+name: 'rf9500'
+packageKey: 'rf9500'
+permissions:
+  zwave: {}

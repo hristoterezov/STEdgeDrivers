@@ -1,0 +1,30 @@
+name: rf9500
+components:
+  - id: main
+    capabilities:
+      - id: button
+        version: 1
+    categories:
+      - name: RemoteController
+
+  - id: up
+    capabilities:
+      - id: button
+        version: 1
+    categories:
+      - name: RemoteController
+
+  - id: down
+    capabilities:
+      - id: button
+        version: 1
+    categories:
+      - name: RemoteController
+preferences:
+  - title: "Emit pressed event for fantom events"
+    name: sendPressOnFantomEvents
+    description: "If an unexpected zvwave event is received a button press will be sent to ST"
+    required: true
+    preferenceType: boolean
+    definition:
+      default: false

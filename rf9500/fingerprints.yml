@@ -1,0 +1,8 @@
+
+zwaveManufacturer:
+  - id: "rf9500"
+    deviceLabel: rf9500
+    manufacturerId: 0x001A
+    productType: 0x5342
+    productId: 0x0000
+    deviceProfileName: rf9500
